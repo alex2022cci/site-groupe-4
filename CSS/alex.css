@@ -29,5 +29,11 @@ h3{
 }
 
 a{
-    cursor:url('/cursors/');
+    cursor:url('/cursors/normal.cur') , auto;
+
+
+}
+
+body{
+    cursor: url('/cursors/invader.ani') , default ;
 }
