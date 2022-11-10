@@ -1,0 +1,34 @@
+/***** reset  *****/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul, li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  /*** fin reset ***/
+
+  body {
+    margin: 0 auto;
+    /* Dégradé du noir au blanc avant un gris en intermédiaire */
+    background: linear-gradient(#000 5%, #777 50%, #fdfdfd);
+    background-repeat: no-repeat;
+    font-family: verdana, Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+  }
+
+  /***** conteneur principal (width: 1180px) *****/
+#wrapper {
+    width: 1180px;
+    margin: 0 auto;
+    /* Espace entre les colonnes et le bord du conteneur principal 40px à gauche et 40px à droite */
+    padding: 0px 40px;
+    background-color: #fdfdfd;
+    box-shadow: 8px 8px 10px #888;
+    border-radius: 12px;
+  }
