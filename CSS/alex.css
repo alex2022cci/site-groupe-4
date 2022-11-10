@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Akashi;
+    src: url(/fonts/Akashi.ttf);
+}
+
+@font-face {
+    font-family: Cosmosbold;
+    src: url(/fonts/Cosmosbold.ttf);
+}
+
+@font-face {
+    font-family: AwareBold;
+    src: url(/fonts/AwareBold.ttf);
+}
+
+h1{
+    font-family: Cosmosbold;
+    color: gold ;
+}
+
+h2{
+    font-family: AwareBold;
+    color : red ;
+}
+
+h3{
+    font-family: Akashi;
+    color : green ;
+}
