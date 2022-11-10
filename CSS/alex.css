@@ -37,3 +37,21 @@ a{
 body{
     cursor: url('/cursors/invader.ani') , default ;
 }
+
+#nightsky{
+    background-image: url(/images/nigthsky.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+
+}
+
+#fusee{
+    background-image: url(/images/ariane5R.png);
+    background-repeat: no-repeat;
+
+}
+
+#textAni{
+    color: blueviolet;
+}
+
