@@ -1,0 +1,45 @@
+﻿[Arrow]
+Path=normal planet cursor.cur
+
+[Help]
+Path=help planet cursor.cur
+
+[AppStarting]
+Path=working planet cursor.ani
+
+[Wait]
+Path=busy planet cursor.ani
+
+[Crosshair]
+Path=precision planet cursor.cur
+
+[IBeam]
+Path=text planet cursor.cur
+
+[NWPen]
+Path=pencil planet cursor.cur
+
+[No]
+Path=cancel planet cursor.cur
+
+[SizeNS]
+Path=vertical planet cursor.cur
+
+[SizeWE]
+Path=horizontal planet cursor.cur
+
+[SizeNWSE]
+Path=diagonal planet cursor.cur
+
+[SizeNESW]
+Path=diagonal 2 planet cursor.cur
+
+[SizeAll]
+Path=move planet cursor.cur
+
+[UpArrow]
+Path=alternate planet cursor.cur
+
+[Hand]
+Path=link planet cursor.cur
+

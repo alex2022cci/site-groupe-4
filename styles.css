@@ -1,34 +1,120 @@
 /***** reset  *****/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  ul, li {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
-  }
-  /*** fin reset ***/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    margin: 0 auto;
-    /* Dégradé du noir au blanc avant un gris en intermédiaire */
-    background: linear-gradient(#000 5%, #777 50%, #fdfdfd);
-    background-repeat: no-repeat;
-    font-family: verdana, Arial, sans-serif;
-    font-size: 16px;
-    color: #000;
-  }
+ul,
+li {
+  list-style: none;
+}
 
-  /***** conteneur principal (width: 1180px) *****/
-#wrapper {
-    width: 1180px;
-    margin: 0 auto;
-    /* Espace entre les colonnes et le bord du conteneur principal 40px à gauche et 40px à droite */
-    padding: 0px 40px;
-    background-color: #fdfdfd;
-    box-shadow: 8px 8px 10px #888;
-    border-radius: 12px;
-  }
+a {
+  text-decoration: none;
+}
+
+/*** fin reset ***/
+
+body {
+  /* Dégradé du noir au blanc avant un gris en intermédiaire */
+  background: linear-gradient(#000 5%, #d9d9d9 50%, #fdfdfd);
+  background-repeat: no-repeat;
+  font-family: verdana, Arial, sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+/***** conteneur principal (width: 1180px) *****/
+#main-wrapper {
+  width: 1180px;
+  margin: 0 auto;
+  padding: 0px 40px;
+  background-color: #D9D9D9;
+  border: 1px solid #cc6CC4;
+  box-shadow: 8px 8px 10px #4caae8;
+  border-radius: 12px;
+}
+
+/**********************************************/
+
+/***** header *****/
+
+/*logo*/
+.h-left {
+  margin-right: 65%;
+}
+
+.logo {
+  margin-left: 5%;
+}
+
+/*Menu de navigation*/
+
+.menu {
+  display: flex;
+  padding: 5px;
+  transform: translate(350px, -120px);
+  position: relative;
+}
+
+.menu ul {
+  display: block;
+  min-width: 120px;
+}
+
+.menu a {
+  display: block;
+  min-width: 120px;
+  font-size: 20px;
+  font-family: monospace;
+  margin: 0.5rem;
+  padding: 0.4rem 0;
+  text-align: center;
+  background-color: #d9d9d9;
+  color: #b783e9;
+  text-decoration: none;
+  border: 1px solid #cc6cc4;
+  border-radius: 4px
+}
+
+/*Curseur */
+a:hover {
+  cursor: url("/curseur/alternate\ planet\ cursor.cur"), pointer;
+}
+
+/*Bannière */
+.banniere {
+  width: 100%;
+}
+
+
+/**********************************************/
+
+
+/***** contenu / main *****/
+
+
+.left-part {
+  vertical-align: top;
+  border-right: 10px solid #cc6CC4;
+}
+
+.rigth-part {
+  vertical-align: bottom;
+}
+
+.puces {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #4CAAE8;
+  width: 20px;
+  height: 30px;
+  border-radius: 30px 0px 0px 30px;
+  margin-right: 10px;
+}
+
+.article-header>h2 {
+  display: inline-block;
+  vertical-align: middle;
+}
